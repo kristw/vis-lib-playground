@@ -11,8 +11,8 @@ export default function VictoryExample() {
 
   return (
     <VictoryChart
-      height={400}
-      width={400}
+      height={height}
+      width={width}
       domainPadding={{ x: 50, y: [0, 20] }}
       scale={{ x: "time" }}
     >

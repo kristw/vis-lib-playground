@@ -1,2 +1,3 @@
 import "./styles.css";
-import "./solutions";
+// import "./solutions";
+import "./examples";

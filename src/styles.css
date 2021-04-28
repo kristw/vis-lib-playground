@@ -4,3 +4,7 @@ h2,
 h3 {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
+
+.chart-container {
+  border: 1px solid #ccc;
+}

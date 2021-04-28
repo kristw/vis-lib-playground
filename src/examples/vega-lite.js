@@ -6,6 +6,7 @@ import bitcoinData from "../data/bitcoin";
 embed("#vega-lite-example", {
   $schema: "https://vega.github.io/schema/vega-lite/v5.json",
   data: {
+    /* TODO: Change data to bitcoinData */
     values: [
       { day: "Mon", value: 120 },
       { day: "Tue", value: 200 },
@@ -17,8 +18,10 @@ embed("#vega-lite-example", {
   mark: "bar",
   width: 600,
   height: 200,
+  /* TODO: Update the encoding to display bitcoin price over time */
   encoding: {
     x: { field: "day", type: "nominal" },
     y: { field: "value", type: "quantitative" }
+    /* Challenge 1: Try customizing the bar color */
   }
 });

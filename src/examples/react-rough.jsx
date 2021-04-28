@@ -18,9 +18,12 @@ export default function ReactRoughExample() {
       width={width + padding * 2}
       height={height + padding * 2}
     >
+      {/* TODO: Change this to draw 100x150 rectangle at x=20 y=20 */}
+      {/* TODO2: Fill the rectangle with some colors and the pattern of your choice. */}
       <Rectangle x={15} y={15} width={90} height={80} />
       {/* {bitcoinData.map((row, i) => {
         const barHeight = (height * row.Close) / max;
+        // TODO2: Modify the computation of x and y 
         const x = 0;
         const y = 0;
 

@@ -12,7 +12,9 @@ export default function NivoExample() {
       <ResponsiveBar
         width={600}
         height={200}
+        /* TODO: Change data to bitcoinData */
         data={nivoData}
+        /* TODO: Update keys and index */
         keys={["fries"]}
         indexBy="country"
         margin={{ top: 20, right: 20, bottom: 40, left: 60 }}

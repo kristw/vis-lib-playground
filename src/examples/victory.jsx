@@ -17,6 +17,7 @@ export default function VictoryExample() {
       scale={{ x: "time" }}
     >
       <VictoryBar
+        /* TODO: Change data to bitcoinData */
         data={[
           { x: new Date(1986, 1, 1), y: 2 },
           { x: new Date(1996, 1, 1), y: 3 },

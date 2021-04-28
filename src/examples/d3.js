@@ -34,8 +34,13 @@ svg
   .data(bitcoinData)
   .enter()
   .append("rect")
+  /* TODO: Uncomment and edit */
   // .attr("x", (d) => ...)
   // .attr("y", (d) => ...)
   .attr("width", xScale.bandwidth())
   .attr("height", (d) => height - yScale(d.Close))
   .style("stroke", "black");
+
+/* Challenge 1: Customize the bar colors */
+/* Challenge 2: Add y-axis */
+/* Challenge 3: Add x-axis */

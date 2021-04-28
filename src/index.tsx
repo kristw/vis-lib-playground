@@ -1,3 +1,2 @@
 import "./styles.css";
-import "./example";
-
+import "./solutions";

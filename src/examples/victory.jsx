@@ -25,6 +25,8 @@ export default function VictoryExample() {
           { x: new Date(2016, 1, 1), y: 4 }
         ]}
       />
+      {/* Challenge: Create candlestick chart */}
+      {/* https://formidable.com/open-source/victory/docs/victory-candlestick */}
     </VictoryChart>
   );
 }

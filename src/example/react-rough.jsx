@@ -10,6 +10,8 @@ export default function ReactRoughExample() {
   const barWidth = width / bitcoinData.length;
   const max = Math.max(...bitcoinData.map((d) => d.Close));
 
+  /* Documentation https://react-rough.dev.adegbuyi.me/?path=/story/basic-rough-renders--basic-canvas-rough-element */
+
   return (
     <ReactRough
       renderer="svg"

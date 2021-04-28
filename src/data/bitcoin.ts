@@ -1,6 +1,6 @@
 import { utcParse } from "d3";
 
-const parseTime = utcParse("%Y-%m-%d %H%:%M:%S");
+const parseTime = utcParse("%Y-%m-%d %H:%M:%S");
 
 export default [
   {

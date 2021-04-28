@@ -375,4 +375,8 @@ export default [
     Volume: 52754542671.38,
     Marketcap: 616452744533.29
   }
-].map((d) => ({ ...d, Date: parseTime(d.Date) }));
+].map((d) => ({
+  ...d,
+  Date: parseTime(d.Date),
+  Day: parseTime(d.Date)!.getDate()
+}));

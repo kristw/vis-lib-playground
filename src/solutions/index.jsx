@@ -4,6 +4,7 @@ import "./rough";
 import "./d3";
 import "./vega-lite";
 import "./echarts";
+import "./chart";
 
 import ReactRoughExample from "./react-rough";
 render(<ReactRoughExample />, document.getElementById("react-rough-example"));

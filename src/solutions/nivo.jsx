@@ -1,3 +1,7 @@
+/* Documentation
+ * https://nivo.rocks/bar/
+ */
+
 import { ResponsiveBar } from "@nivo/bar";
 import bitcoinData from "../data/bitcoin";
 

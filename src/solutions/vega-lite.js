@@ -4,7 +4,7 @@ import bitcoinData from "../data/bitcoin";
 /* Example https://vega.github.io/vega-lite/examples/bar.html */
 
 embed("#vega-lite-example", {
-  $schema: "https://vega.github.io/schema/vega-lite/v4.json",
+  $schema: "https://vega.github.io/schema/vega-lite/v5.json",
   data: {
     values: bitcoinData
   },
